@@ -10,7 +10,7 @@
 # Erdiko.  It can be used in prod but is intended for dev
 ############################################################
 
-FROM php:fpm
+FROM php:8-fpm-bookworm
 
 # File Author / Maintainer
 MAINTAINER John Arroyo, john@arroyolabs.com
